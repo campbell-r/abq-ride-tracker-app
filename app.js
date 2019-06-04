@@ -11,6 +11,17 @@ var app = express();
 var router = express.Router();
 var port = process.env.PORT || 3000;
 
+//require mongoose for mongodb
+var mongoose = require('mongoose');
+
+//db config
+var db = require('./config/keys').MongoURI;
+
+//connect to mongo
+mongoose.connect(db, {newURLParser: true})
+.then(() => console.log('MongoDB Connected...'))
+.catch(() => console.log('err'));
+
 //reference public dir
 app.use(express.static(path.join(__dirname, 'public')));
 
