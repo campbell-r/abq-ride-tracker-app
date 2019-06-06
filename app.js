@@ -1,10 +1,7 @@
 // referencing express module to work with
 var express = require('express');
-
 var path  = require('path');
-
 var bodyParsar = require('body-parser');
-
 var app = express();
 
 //making an express variable referenced with express router
@@ -24,6 +21,9 @@ mongoose.connect(db, {newURLParser: true})
 
 //reference public dir
 app.use(express.static(path.join(__dirname, 'public')));
+
+//parse incoming request
+app.use(bodyParsar.urlencoded({extended: false}));
 
 var routes = require('./routes/index');
 app.use('/', routes);
