@@ -44,7 +44,7 @@ router.post('/register', function(req, res) {
 
     user.save(function(err) {
       if (err) {
-        if (err.name === 'MongoError' && err.code === 11000) {
+        if (err.email === 'MongoError' && err.code === 11000) {
         err = "An account with that email already exists. Login instead!"
           res.render('error', {errormessage: err})
         }//end of err.name === mongoerror
