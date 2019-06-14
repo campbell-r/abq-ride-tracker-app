@@ -1,0 +1,41 @@
+route_long_name,route_type,route_text_color,route_color,agency_id,route_id,route_url,route_desc,route_short_name
+Isleta,3,000000,2390CF,1,3253,,,53
+Candelaria Commuter,3,000000,FF7F54,1,3258,,,7
+Comanche Commuter,3,FFFFFF,006267,1,3233,,,13
+North Fourth Street,3,FFFFFF,C30000,1,3230,,,10
+Lomas,3,FFFFFF,800080,1,3231,,,11
+Coors,3,000000,FF8900,1,3236,,,155
+Cottonwood/Montano/UTC,3,FFFFFF,008047,1,3237,,,157
+San Mateo / CNM Work Force,3,FFFFFF,420080,1,3234,,,140
+San Mateo,3,FFFFFF,7E0080,1,3235,,,141
+Montgomery/Carlisle,3,000000,FF4E21,1,3250,,,5
+Airport/Downtown,3,FFFFFF,71220F,1,3251,,,50
+Atrisco/Rio Bravo,3,FFFFFF,572820,1,3252,,,51
+Ventana Ranch / Unser,3,FFFFFF,83361B,1,3239,,,162
+Bridge/Westgate,3,FFFFFF,006097,1,3254,,,54
+Jefferson - Paseo del Norte Express,3,FFFFFF,008080,1,3255,,,551
+Indian School Commuter,3,000000,E171E1,1,3256,,,6
+Central Avenue,3,000000,00DEC8,1,3257,,,66
+Constitution Commuter,3,000000,B7FF00,1,3232,,,12
+Red Line Rapid Ride,3,FFFFFF,EC0000,1,3259,,,766
+Blue Line Rapid Ride,3,FFFFFF,0000FF,1,3261,,,790
+Green Line Rapid Ride,3,000000,00FF00,1,3260,,,777
+Taylor Ranch Express,3,FFFFFF,D43815,1,3263,,,92
+Menaul,3,FFFFFF,7B097B,1,3262,,,8
+Unser Commuter,3,000000,3988FF,1,3265,,,94
+Academy Commuter,3,000000,9494FF,1,3264,,,93
+Zuni Express,3,FFFFFF,6600FF,1,3267,,,97
+Crosstown Commuter,3,000000,F3F400,1,3266,,,96
+Wyoming Commuter,3,FFFFFF,005B3C,1,3268,,,98
+Rio Grande/12th Street,3,FFFFFF,800000,1,3249,,,37
+12th Street/Rio Grande,3,FFFFFF,800000,1,3248,,,36
+Juan Tabo,3,000000,E17F38,1,3229,,,1
+Rio Bravo/ Rail Runner/ KAFB,3,FFFFFF,804A80,1,3243,,,222
+Downtown-KAFB Ltd.,3,000000,FDDC00,1,3242,,,217
+Eubank-Ventura,3,000000,DC5D2E,1,3241,,,2
+98th / Dennis Chavez,3,FFFFFF,00FF00,1,3240,,,198
+San Pedro Commuter,3,000000,FF9E00,1,3247,,,34
+Wyoming,3,FFFFFF,852300,1,3246,,,31
+ABQ-Rio Rancho Rail Runner Shuttle,3,FFFFFF,006849,1,3245,,,251
+Airport/Downtown Express,3,000000,F34C00,1,3244,,,250
+University/Gibson/Broadway,3,FFFFFF,C01D8C,1,3238,,,16

@@ -1,9 +1,90 @@
-<div class="row mt-5">
-  <div class="col-md-6 m-auto">
-    <div class="card card-body text-center">
-      <h1>Dashboard</h1>
-       <h3> Hello, <%= message %></h3>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Travel Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin=""/>
+  <link rel="stylesheet" href="http://abqridetracker.com/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+    integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+    crossorigin=""></script>
 
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" id="navigation-header" href="/">ABQ Ride Tracker</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/">Home<span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/auth/logout">Logout</a>
+        </li>
+      </ul>
     </div>
-  </div>
-</div>
+  </nav>
+      <div class="container-fluid bg-dark">
+        <div class="row">
+          <div class="col-md-3 bg-primary" id="navigation">
+            <h3 class="nav-text my-3"><b>Hello, <%= message %></b></h3>
+            <p class="nav-text my-3">Click on which bus route you would like to display</p>
+            <div class="form-check my-3 checkBox">
+                <label class="form-check-label">
+                  <input name="CheckBox66" class="form-check-input" type="checkbox" value="" id="route66CheckBox">
+                Route 66 Central
+                </label>
+              </div>
+              <div class="form-check my-3 checkBox">
+                  <label class="form-check-label" id="route66CheckBox">
+                    <input name="checkBox11" class="form-check-input" type="checkbox" value="" id="route11CheckBox">
+                  Route 11 Lomas
+                  </label>
+                </div>
+                <div class="form-check my-3">
+                    <label class="form-check-label checkBox" id="route66CheckBox">
+                      <input name="checkBox8" class="form-check-input" type="checkbox" value="" id="route8CheckBox">
+                    Route 8 Menaul
+                    </label>
+                  </div>
+                  <div class="form-check my-3 checkBox">
+                      <label class="form-check-label">
+                        <input name="checkBox1" class="form-check-input" type="checkbox" value="" id="route1CheckBox">
+                      Route 1 Juan Tabo
+                      </label>
+                    </div>
+                    <div class="form-check my-3 checkBox">
+                        <label class="form-check-label">
+                          <input name="checkBox31" class="form-check-input" type="checkbox" value="" id="route31CheckBox">
+                        Route 31 Wyoming
+                        </label>
+                      </div>
+            <button type="button" name="button" class="btn btn-primary btn-md btn-block" id="button9">Clear All Routes</button>
+          </div><!-- NOTE: end of col sm 3 -->
+          <div class="col-md-9" id="mapid">
+            <div class="">
+            </div><!-- NOTE: content box -->
+          </div><!-- NOTE: end col-sm-9 -->
+        </div><!-- NOTE: end of row -->
+      </div><!-- NOTE: container fluid -->
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+      <!-- <script type="text/javascript" src="js/Leaflet.Dialog.js"></script>
+      <script type="text/javascript" src="js/leaflet.rotatedMarker.js"></script> -->
+
+    <script type="text/javascript" src="http://abqridetracker.com/main1.js"></script>
+
+  </body>
+</html>

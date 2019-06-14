@@ -1,11 +1,89 @@
-#main-header{
-  border: 1px solid red;
+#navigation{
+  overflow-y: scroll;
+  height: 400px;
+}
+.checkBox{
+  color:white;
+}
+#navigation-header{
+  /* background-color: #313848; */
+  font-size: 30px;
+}
+#mapid {
+  height: 800px;
+}
+.nav-text{
+  color: white;
 }
 body{
-  color:black;
+  background-color: #white;
+  color: black;
 }
-#mydiv{
-  height: 600px;
-  border: 3px solid red;
-  
+
+#button1{
+  /* color: white;
+  background-color: orange;/* NOTE: will replace with the correct color code */
+
+
+}
+#button2{
+  /* color: white;
+  background-color: red;/* NOTE: will replace with the correct color code */ */
+}
+#button3{
+  /* color: white;
+  background-color: blue;/* NOTE: will replace with the correct color code */ */
+}
+#button4{
+  color:white;
+  background-color: purple; /* NOTE: will replace with the correct color code */
+}
+#button5{
+  /* color: white;
+  background-color: green; /* NOTE: will replace with the correct color code */
+
+}
+#button6{
+  color: grey;
+  background-color: yellow;/* NOTE: will replace with the correct color code */
+}
+#button7{
+  color: grey;
+  background-color: pink;/* NOTE: will replace with the correct color code */
+}
+#button8{
+  color: black;
+  background-color: grey;/* NOTE: will replace with the correct color code */
+}
+#button9{
+  color: white;
+  background-color: black;/* NOTE: will replace with the correct color code */
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+.leaflet-popup-content-wrapper {
+  background-color: #313848;
+  color:white;
+
+}
+
+.leaflet-popup-content-wrapper .leaflet-popup-content {
+
+
+}
+
+.leaflet-popup-tip-container {
+  color:grey;
 }

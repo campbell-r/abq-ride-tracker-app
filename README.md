@@ -1,1 +1,1 @@
-## Cultivating coders class coders
+## Cultivating Coders summer 2019 class project
