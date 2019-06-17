@@ -49,7 +49,7 @@ router.post('/register', function(req, res) {
           res.render('error', {errormessage: err})
         }//end of err.name === mongoerror
         else{
-         res.render('error', {errormessage: "Username exists, please choose a different one!"})
+         res.render('error', {errormessage: " Email exists, please choose a different one!"})
        }
     }//if 1st err
 

@@ -5,10 +5,10 @@ var bodyParsar = require('body-parser');
 var cookieParser = require('cookie-parser');
 var session = require('express-session');
 var User = require('./models/user');
-const users = require('./routes/users')
+const users = require('./routes/users');
 var bcrypt = require('bcrypt');
 const FacebookStrategy = require('passport-facebook').Strategy;
-const passport = require('passport')
+const passport = require('passport');
 var routes = require('./routes/index');
 const auth = require('./routes/auth');
 
@@ -71,7 +71,7 @@ app.use('/users', users);
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
 
-app.use(function(req, res, next){
+app.use(function(req, res, next) {
   res.locals.currentUser = req.session.userId;
 });
 
